@@ -1,4 +1,5 @@
-import logo from "../assets/logo";
+// blogData.js
+import logo from "../assets/logo"; // Adjust the path if necessary
 
 const blogData = {
   name: "Underreacted",
