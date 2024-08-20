@@ -1,13 +1,10 @@
-
 import React from 'react';
 
 function Header({ name }) {
   return (
-    <div>
-      <header>
-        <h3>{name}</h3>
-      </header>
-    </div>
+    <header>
+      <h1>{name}</h1>
+    </header>
   );
 }
 

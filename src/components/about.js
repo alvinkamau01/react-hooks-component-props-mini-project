@@ -1,13 +1,16 @@
 import React from 'react';
 
-function About({ image }) {
+function About({ image, about }) {
+  const placeholderImage = "https://via.placeholder.com/215";
+
   return (
-    <div>
-      <aside>
-        <img src={image} placeholder="https://via.placeholder.com/215" alt="blog logo" />
-        <p>about</p>
-      </aside>
-    </div>
+    <aside>
+      <img
+        src={image || placeholderImage}
+        alt="blog logo"
+      />
+      <p>{about}</p>
+    </aside>
   );
 }
 
